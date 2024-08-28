@@ -1,0 +1,7 @@
+spring:
+  application:
+  name: catalogservice
+server:
+  port: 9001
+polar:
+  greeting: Welcome to the Git prod book catalog!
