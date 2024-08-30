@@ -1,7 +1,14 @@
 spring:
   application:
-  name: catalog-service
+    name: Catalog Config Server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/salim-hbk/config-repo
+          default-label: main
+          timeout: 5
+          clone-on-start: true
+          force-pull: true
 server:
-  port: 9001
-polar:
-  greeting: Welcome to the Git book catalog!
+  port: 8888
