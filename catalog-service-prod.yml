@@ -11,4 +11,4 @@ spring:
           clone-on-start: true
           force-pull: true
 polar:
-  greeting: Welcome to the catalog from a fresh config server
+  greeting: Welcome to the catalog from a fresh config-2 server
